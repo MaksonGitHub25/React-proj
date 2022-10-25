@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="header">
         <span className="header-title">Angelika Cosmetics</span>
-        <ul>
+        {/* <ul>
           <li>
             <Link to="/">Домашняя страница</Link>
           </li>
@@ -18,7 +18,7 @@ export default function Header() {
           <li>
             <Link to="/contacts">Контакты</Link>  
           </li>
-        </ul>
+        </ul> */}
     </div>
   )
 }
